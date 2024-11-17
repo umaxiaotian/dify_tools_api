@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "dify_tools"
+version = "0.1.0"
+description = "Dify用の拡張機能APIのサンプルです。"
+authors = ["Yuma Obata <yuma@umaxiaotian.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.5"
+uvicorn = "^0.32.0"
+pyyaml = "^6.0.2"
+chikkarpy = "^0.1.1"
+sudachipy ="^0.6.8"
+sudachidict-full ="^20241021"
+sudachidict_core = "^20241021"
+ginza = "^5.2.0"
+ja_ginza = "^5.2.0"
+spacy="^3.8.2"
+
+
+[tool.poetry.scripts]
+generate-openapi = "generate_openapi:generate_openapi_yaml"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
