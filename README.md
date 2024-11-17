@@ -29,8 +29,10 @@ poetry run generate-openapi
 
 ### 3. 生成物をdifyに貼り付ける
 distというフォルダが作られその中に、openapiファイルが作成されますので、コピーしてそのまま貼り付けます。
+
 ![image](https://github.com/user-attachments/assets/da19d550-f134-4a72-bed2-a4e238abee67)
 
 ### 4. 認証設定
 以下のように設定します。
+
 ![image](https://github.com/user-attachments/assets/29762608-85e9-4dee-94c0-94b49938fa3f)
